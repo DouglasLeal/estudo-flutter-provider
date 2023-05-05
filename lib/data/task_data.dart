@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TaskData extends ChangeNotifier{
-  List<String> _tasks = [];
+  List<String> _tasks = ["tarefa 1", "tarefa 2"];
   List<String> get tasks => _tasks;
 
   void addTask(String task){
